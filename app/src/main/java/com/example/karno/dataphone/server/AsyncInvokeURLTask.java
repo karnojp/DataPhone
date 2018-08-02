@@ -25,7 +25,8 @@ public class AsyncInvokeURLTask extends AsyncTask<Void, Void, String>
     public boolean showdialog =false;
     public String message ="Proses Data";
     //Harus diganti dengan IP Server yang digunakan
-    public String url_server ="http://192.168.43.239/xphone/";
+    //public String url_server ="http://192.168.43.239/xphone/";
+    public String url_server ="http://thekarnoit.web.id/xphone1/";
     public Context applicationContext;
     public static interface OnPostExecuteListener{
         void onPostExecute(String result);
